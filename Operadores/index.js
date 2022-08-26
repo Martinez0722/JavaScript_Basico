@@ -40,4 +40,8 @@ console.log(num1**num2);
 
 // Incremento
 let contador = 10;
-console.log(contador++)
+console.log(++contador)
+
+// Decremento
+let decremento = 5
+console.log(--decremento)
