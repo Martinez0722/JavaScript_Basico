@@ -1,3 +1,14 @@
+//Não podemos criar variáveis com palavras reservadas
+// Variáveis devem possuir nomes significativos
+// Nome de variável não deve começar com um numero
+//Nome de variável não pode conter espaços ou traços
+// camelCase
+// Case-sensitive
+// Não podemos redeclarar variável com let
+// NÃO USE VAR, UTILIZE LET.
+
+
+
 let nome = 'Giovanni';
 
 console.log(nome,'nasceu em 1984');
