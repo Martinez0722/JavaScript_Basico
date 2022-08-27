@@ -1,5 +1,27 @@
-const num1 = prompt("Digite um número")
-const num2 = prompt("Digite outro número")
+let num1 = prompt("Digite um número")
+let num2 = prompt("Digite outro número")
+const pergunta= prompt("Qual operação matemática gostaria de realizar?")
+num1 = Number(num1)
+num2 = Number(num2)
 
-const resultado = Number(num1) + Number(num2)
-alert(resultado)
+if(pergunta==="soma")
+{   const resultado = (num1) + (num2)
+    alert(`O resultado da sua conta foi ${resultado}`)
+}
+if(pergunta==="subtração")
+{   const resultado = (num1) - (num2)
+    alert(`O resultado da sua conta foi ${resultado}`);
+}
+if(pergunta==="divisão")
+{   const resultado = (num1) / (num2)
+    alert(`O resultado da sua conta foi ${resultado}`);
+}
+if(pergunta==="multiplicação")
+{   const resultado = (num1) * (num2)
+    alert(`O resultado da sua conta foi ${resultado}`);
+}
+if(pergunta==="potenciação")
+{   const resultado = (num1) ** (num2)
+    alert(`O resultado da sua conta foi ${resultado}`);
+    
+}
