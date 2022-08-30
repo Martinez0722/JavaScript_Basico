@@ -36,3 +36,11 @@ console.log(aleatorio2)
 // Potenciação
 console.log(Math.pow(2,10))
 console.log(2**10)
+
+// Raíz quadrada
+let num5 = 9
+console.log(num5**(1/2));
+console.log(num5**0.5);
+
+// Infinity
+console.log(100/0);
